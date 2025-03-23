@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.spin{
+    width: 10e m;
+    height: 10em;
+    border-top: 1em solid darkred;
+    border-right: 1em solid transparent;
+    border-radius: 50%;
+    margin : auto;
+    animation: spin 2s linear infinite;
+}
+.load{
+    width: 1em;
+    height: 1em;
+    background-color: 1em solid darkred;
+    border-radius: 50%;
+    margin-left: 8.5em;
+    margin-top: 8.5em;
+}
+@keyframes spin
+{
+100%{
+    transform: rotate(360deg);
+}
+}
+h3{
+    color: blue;
+    
+    font-size: 32px;
+}

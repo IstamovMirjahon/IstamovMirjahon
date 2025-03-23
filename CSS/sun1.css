@@ -1,0 +1,29 @@
+@keyframes moveshadow{
+    0%{
+        transform: translateX(150px);
+        background-color: #fff;
+    }
+    50% {
+        transform: translateX(-10px);
+        background-color: #000;
+    }
+    100%{
+        transform: translateX(-170px);
+        background-color: #fff;
+    }
+}
+
+@keyframes dayToNight{
+    0%{
+       
+        background-color: #fff;
+    }
+    50% {
+       
+        background-color: #000;
+    }
+    100%{
+       
+        background-color: #fff;
+    }
+}
